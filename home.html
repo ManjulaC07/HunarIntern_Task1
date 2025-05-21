@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="home.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <title>Welcome Page</title>
+</head>
+<body>
+
+  <div class="image-container">
+    <div class="side-image">
+    <img src="background3.jpg" >
+</div>
+    <div class="header">
+      <ul>
+        <li><a href="#about" >About Me</a></li>
+        <li><a href="#works">My Works</a></li>
+        <li><a href="#skills" >Skills</a></li>
+        <li><a href="#contact-section" >Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="welcome-message">
+      <h1>Hey there! I'm Manjula</h1>
+      <p>I'm excited to share my work, skills, and journey with you. Feel free to explore and connect!</p>
+    </div>
+  </div>
+
+<section class="about-works" data-aos="fade-up">
+  <div  id="about"class="about-box">
+  <h2>About Me</h2>
+  <p>
+    I'm a Computer Science student and aspiring web developer with experience in HTML, CSS, JavaScript, Java, C, and C++. Through internships, I've built projects like a hotel website and an interactive quiz game, focusing on clean design and user experience. I'm passionate about learning and creating impactful web experiences.
+  </p>
+  </div>
+
+
+
+<div id="works"class="works-box">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+      <!-- Front -->
+      <div class="flip-card-front">
+        <h2>My Works</h2>
+        <h3>🏨 Hotel Website</h3>
+        <p>
+          Developed a fully responsive hotel website during my internship. The site included booking features, room details, and contact forms, providing a user-friendly interface for both customers and admins.
+        </p>
+      </div>
+
+      <!-- Back -->
+      <div class="flip-card-back">
+        <h2>My Works</h2>
+        <h3>🧠 Quiz Game</h3>
+        <p>
+          Created an interactive quiz game using HTML, CSS, and JavaScript. It features dynamic question loading, score tracking, and a smooth user interface. This project helped me understand DOM manipulation and logic handling in JS.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</section>
+
+<section id="skills" class="skills-carousel-section" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="carousel-container" id="skill-carousel">
+    <div class="skills-slide active">
+      <h3>💻 Front-End Development</h3>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Bootstrap</li>
+        <li>Basic Animation with CSS & AOS</li>
+      </ul>
+    </div>
+
+    <div class="skills-slide">
+      <h3>🧠 Programming Languages</h3>
+      <ul>
+        <li>C & C++</li>
+        <li>Java (Basic OOP & Logic Building)</li>
+        <li>Python (currently learning)</li>
+      </ul>
+    </div>
+
+    <div class="skills-slide">
+      <h3>🛠️ Tools & Technologies</h3>
+      <ul>
+        <li>VS Code, Git & GitHub</li>
+        <li>Basic usage of Figma for UI planning</li>
+        <li>Hosting projects on GitHub Pages</li>
+      </ul>
+    </div>
+
+    <div class="skills-slide">
+      <h3>🌱 Soft Skills</h3>
+      <ul>
+        <li>Problem Solving</li>
+        <li>Time Management</li>
+        <li>Team Collaboration during internships</li>
+        <li>Continuous Learning Attitude</li>
+      </ul>
+    </div>
+  
+  <div class="dot-container">
+  <span class="dot active" onclick="showSlide(0)"></span>
+  <span class="dot" onclick="showSlide(1)"></span>
+  <span class="dot" onclick="showSlide(2)"></span>
+  <span class="dot" onclick="showSlide(3)"></span>
+</div>
+</div>
+
+</section>
+
+
+<section id="contact-section" class="contact-section" data-aos="fade-up">
+  <h2>Contact</h2>
+  <p>If you'd like to connect, collaborate, or just say hi — feel free to reach out! I'm always open to new opportunities and conversations in tech.</p>
+
+  <div class="contact-details">
+    <p><strong>Email:</strong> <a href="mailto:manjulachandrasekaran05@gmail.com">manjulachandrasekaran05@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91-9874097342</p>
+
+    <div class="social-links">
+      <a href="https://in.linkedin.com/in/manjula-chandrasekaran-6b383427a" target="_blank">LinkedIn</a>
+      <a href="https://github.com/ManjulaC07" target="_blank">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h3>👩‍💻 Manjula Chandrasekaran</h3>
+      <p>Web Developer | Programmer | Tech Enthusiast</p>
+    </div>
+
+    <div class="footer-middle">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-right">
+      <h4>Connect with Me</h4>
+      <div class="social-icons">
+        <a href="https://github.com/snekaC2024" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/sneka-chandrasekaran" target="_blank">LinkedIn</a>
+        <a href="mailto:manjulachandrasekaran18@gmail.com">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Manjula Chandrasekaran. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+<!-- AOS Script (Place before </body>) -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  const slides = document.querySelectorAll('.skills-slide');
+  const dots = document.querySelectorAll('.dot');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      dots[i].classList.remove('active');
+    });
+    slides[index].classList.add('active');
+    dots[index].classList.add('active');
+  }
+
+  // Optional: Auto-show first slide on load
+  document.addEventListener("DOMContentLoaded", () => {
+    showSlide(0);
+  });
+</script>
+
+
+</body>
+</html>
